@@ -1,0 +1,48 @@
+body {
+    font-family: Arial,  sans-serif; /* Семейство шрифтов */
+    font-size: 11px; /* Размер основного шрифта в <p></p>  */
+    background-color: #8db9eb; /* Цвет фона веб-страницы */
+    color: #333333; /* Цвет основного текста */ 
+}
+
+
+h1 {
+    color: #ff0000; /* Цвет заголовка */
+    font-size: 24px; /* Размер шрифта в пунктах */
+    font-family: 'Inter'; /* Семейство шрифтов */
+}
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+      color: blue;
+    }
+}
+
+h1 {
+    animation: color-change 3s infinite;
+}
+
+
+h1 {
+    animation: color-change 3s infinite;
+}
+
+
+li {
+    
+    font-size: 20px; /* Размер шрифта в пунктах */
+    font-family: 'Inter'; /* Семейство шрифтов */
+}
+
+p {
+    
+    font-size: 24px; /* Размер шрифта в пунктах */
+    font-family: 'Inter'; /* Семейство шрифтов */
+}
